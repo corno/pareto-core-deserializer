@@ -2,6 +2,7 @@
  * these functions coming from core-internals should be exposed for deserializer development
  */
 export {
+    block,
     build_text,
     build_list,
     panic as unreachable_code_path,
