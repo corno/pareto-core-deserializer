@@ -3,11 +3,11 @@
  */
 export {
     block,
-    build_text,
-    build_list,
-    panic as unreachable_code_path,
-    integer_division,
-    text_to_character_list,
-    create_iterator,
+    text_build,
+    list_build,
+    unreachable_code_path,
+    integer_divide,
+    list_from_text,
+    iterate,
 } from "pareto-core-internals"
 
