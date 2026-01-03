@@ -6,7 +6,8 @@ import * as _pinternals from "pareto-core-internals"
 export {
     block,
     unreachable_code_path,
-    iterate,
+    iterate_partially,
+    iterate_fully
 } from "pareto-core-internals"
 
 export namespace text {
